@@ -17,7 +17,7 @@ class ViewController: UIViewController {
         let guess = Int(enterGuessBox.text!)
         if rand == guess {
             answerBox.text = "You got it!"
-        } else if  rand != guess {
+        } else if rand != guess {
             answerBox.text = "Sorry! The number was \(rand)"
         }
         
